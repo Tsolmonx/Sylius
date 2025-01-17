@@ -266,7 +266,7 @@
             "require": "^6.4"
         },
         "branch-alias": {
-            "dev-main": "1.13-dev"
+            "dev-nextstore": "1.13.x-dev"
         }
     },
     "autoload": {
