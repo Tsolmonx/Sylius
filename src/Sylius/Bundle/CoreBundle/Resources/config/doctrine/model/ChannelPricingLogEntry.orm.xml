@@ -21,8 +21,8 @@
             <generator />
         </id>
 
-        <field name="price" column="price" type="integer" />
-        <field name="originalPrice" column="original_price" type="integer" nullable="true" />
+        <field name="price" column="price" type="bigint" />
+        <field name="originalPrice" column="original_price" type="bigint" nullable="true" />
         <field name="loggedAt" column="logged_at" type="datetime" />
 
         <many-to-one field="channelPricing" target-entity="Sylius\Component\Core\Model\ChannelPricingInterface">
